@@ -8,12 +8,15 @@
 go install github.com/hooklift/gowsdl/cmd/gowsdl@latest
 
 二、获取wsdl文件
-例如：https://api-test.rich-healthcare.com/zj/RichHealthThridInterfaceForCard.svc\?wsdl
+例如：https://xxxxxxx/zj/RichHealthThridInterfaceForCard.svc\?wsdl
+
 
 先在文件夹下建立一个目标文件, rich.wsdl
 
 命令行执行：
-curl https://api-test.rich-healthcare.com/zj/RichHealthThridInterfaceForCard.svc\?wsdl > rich.wsdl
+curl https://xxxxxx/zj/RichHealthThridInterfaceForCard.svc\?wsdl > rich.wsdl
+
+<span style="color: red; "> 域名自行替换</span> 
 
 三、基于wsdl文件生成go的package
 
